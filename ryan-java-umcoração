@@ -1,0 +1,12 @@
+Java
+public class Alimento {
+    private String nome;
+    private int quantidade;
+    private Date dataValidade;
+    // ... getters e setters
+
+    public Alimento(String nome, int quantidade, Date dataValidade) {
+        this.nome = nome;
+        this.quantidade = quantidade;
+        this.dataValidade = dataValidade;
+    }
